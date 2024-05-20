@@ -1,0 +1,18 @@
+.image{
+  object-fit:cover
+}
+
+.title{
+font-weight: 700px;  
+}
+.post{
+  display: flex;
+  align-items:center;
+  gap:50px;
+margin-bottom:50px;
+border: 1px solid #555;
+border-radius: 25px
+}
+.post:nth-child(even){
+background-color:black;
+}

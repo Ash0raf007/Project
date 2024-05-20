@@ -1,0 +1,31 @@
+
+.title{
+margin-bottom: 15px;
+}
+.desc{
+font-size: 18px;
+}
+.image{
+  object-fit: cover;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+.imageContainer{
+  position: relative;
+  height:300px
+  }
+
+.author{
+position: absolute;
+}
+.text{
+font-size: 18px;
+columns:2 ;
+line-height: 24px;
+}
+.gallery{
+  display: flex;
+  justify-content:center;
+  gap:15px;
+  margin:20px
+}

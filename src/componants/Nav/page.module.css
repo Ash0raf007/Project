@@ -1,0 +1,47 @@
+/*
+  <div className=                        {styles.container}           >
+      <Link href="/" className=          {styles.logo}         >HEXASHOP</Link>
+      <div className=                    {styles.links}         >
+*/
+.container{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+font-size: 22px;
+}
+.links{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/*
+<nav>
+<ul>
+  <li>About</li>
+  <li>Blog</li>
+  <li>Portfolio</li>
+  <li>Contact</li>
+
+</ul>
+</nav>
+
+nav{
+  padding-top: 2.8rem;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.8rem 1.9rem;
+}
+*/
